@@ -1,0 +1,55 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pdb
+*.swp
+.env
+.venv
+env/
+venv/
+build/
+dist/
+*.egg-info/
+
+# =========================
+# Tests & Reports
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
+tests/accuracy_report.csv
+tests/failure_cases.json
+tests/new_test_prompts.json
+
+# =========================
+# Large Data & Logs
+# =========================
+*.zip
+*.log
+*.tsv
+
+# Ignore all CSVs EXCEPT specific demo dataset
+*.csv
+!sample.csv
+!memory_poisoning_dataset.csv
+
+# =========================
+# ML Model Weights
+# =========================
+*.pt
+*.bin
+*.onnx
+*.safetensors
+
+# If model folder is too large, uncomment this:
+# SecureLLM_finetuned_model/
+
+# =========================
+# IDEs / OS
+# =========================
+.vscode/
+.idea/
+.DS_Store

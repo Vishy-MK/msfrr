@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+python/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local data
+data/
+*.log
+*.sqlite
+
+# IDEs
+.vscode/
+.idea/
+.DS_Store
